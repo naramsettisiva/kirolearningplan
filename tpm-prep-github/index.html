@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Principal TPM Interview Prep</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <h1>🚀 Principal TPM Interview Prep</h1>
+  <p>6-Week Intensive • 2 Hours/Day • System Design + AI + Databricks + Hands-On AI Labs</p>
+  <div style="margin-top:16px">
+    <span class="badge badge-blue">System Design</span>
+    <span class="badge badge-purple">AI / ML / GenAI</span>
+    <span class="badge badge-green">AWS + Databricks</span>
+    <span class="badge badge-orange">TPM Leadership</span>
+  </div>
+  <div id="countdown" style="margin-top:16px"></div>
+  <p style="margin-top:12px;font-size:.9rem;color:var(--muted)">Apr 1 – May 14, 2026 • Weekdays Only</p>
+</header>
+<div id="tip-banner" style="padding:12px 20px;background:rgba(59,130,246,.08);border-bottom:1px solid var(--border);color:var(--text);font-size:.9rem;text-align:center;min-height:40px"></div>
+<div id="search-bar" style="padding:10px 16px;background:var(--card);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:8px;position:sticky;top:44px;z-index:99">
+  <input type="text" id="global-search" placeholder="🔍 Search topics, patterns, questions, resources..."
+    oninput="globalSearch(this.value)"
+    style="flex:1;padding:10px 16px;background:var(--bg);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:.95rem;font-family:inherit">
+  <span id="search-count" style="color:var(--muted);font-size:.85rem;min-width:80px"></span>
+</div>
+<div id="search-results" style="display:none;padding:20px;max-height:60vh;overflow-y:auto"></div>
+<nav id="nav"></nav>
+<div class="container">
+  <div class="tab-content" id="schedule"></div>
+  <div class="tab-content" id="patterns"></div>
+  <div class="tab-content" id="interviewer"></div>
+  <div class="tab-content" id="prepagent"></div>
+  <div class="tab-content" id="resources"></div>
+  <div class="tab-content" id="tracker"></div>
+</div>
+<script src="tips-data.js"></script>
+<script src="countdown.js"></script>
+<script src="data-week1.js"></script>
+<script src="data-week2.js"></script>
+<script src="data-week3.js"></script>
+<script src="data-week4.js"></script>
+<script src="data-week5.js"></script>
+<script src="data-week6.js"></script>
+<script src="data-patterns.js"></script>
+<script src="interviewer-engine.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
